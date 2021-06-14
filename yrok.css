@@ -471,14 +471,15 @@ text-transform: uppercase;
 color: #445162;
 border-radius: 7px;
 }
-
-
-
-    
-
-
-
- 
-
-
- 
+.poslednee{
+    width:1272px;
+    text-align: center;
+    height: 49px;
+    font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 24px;
+letter-spacing: 0.3px;
+color: #445162;
+} 
