@@ -3,7 +3,6 @@
     height: 275px;
     background-color: #445161;
     display: flex;
-    
 }
 .main-header-title{
 width: 374px;
@@ -16,7 +15,6 @@ font-weight: normal;
 font-size: 60px;
 line-height: 69px;
 display: flex;
-align-items: flex-end;
 color: #FFFFFF;
 padding-left: 50px;
 padding-top: 25px;
@@ -30,7 +28,6 @@ padding-top: 25px;
  }
  .main-header-list-item{
 color: cornsilk;
-
  }
  .main-header-list{
      padding-left: 73px;
@@ -426,6 +423,12 @@ padding:2px 0 7px 476px;
     border-radius: 7px;
     margin-bottom: 18px;
     margin-left: 247px;
+    padding:12px 0 7px 12px;
+    font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
 }
 .icons{
 display: flex;
