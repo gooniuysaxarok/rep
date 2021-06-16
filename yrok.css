@@ -5,10 +5,6 @@
     display: flex;
 }
 .main-header-title{
-width: 374px;
-height: 69px;
-left: 50px;
-top: 25px;
 font-family: Arial;
 font-style: normal;
 font-weight: normal;
@@ -16,8 +12,7 @@ font-size: 60px;
 line-height: 69px;
 display: flex;
 color: #FFFFFF;
-padding-left: 50px;
-padding-top: 25px;
+padding:25px 0 0 50px;
 }
  .main-header-img{
      position:absolute;
@@ -31,13 +26,9 @@ color: cornsilk;
  }
  .main-header-list{
      padding-left: 73px;
-     list-style-type:simp-chinese-formal;
+     list-style-type:circle;
  }
  .pox{
-    width: 284px;
-    height: 36px;
-    left: 50px;
-    top: 45px;
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -46,15 +37,10 @@ color: cornsilk;
     display: flex;
     align-items: center;
     color: #445161;
-    padding-left: 50px;
-    margin-top: 64px;
+    margin:64px 0 0 50px;
  }
  .per{
-     max-width:646px ;
-width: 646px;
-height: 71px;
-left: 50px;
-top: 98px;
+     max-width:646px;
 font-family: Arial;
 font-style: normal;
 font-weight: normal;
@@ -71,9 +57,7 @@ padding-left: 50px;
  .vid{
      height: 245px;
      width:430px;
-     margin-top: 45px;
-     margin-left: 96px;
-    margin-bottom: 50px;
+     margin:45px 0 50px 96px;
  }
  .dimagay{
 text-align: center;
@@ -83,14 +67,11 @@ font-weight: normal;
 font-size: 30px;
 line-height: 36px;
 color: #445161;
-align-items: center;
 padding-top: 25px;
  }
  .dignity{
 width: 1272px;
 height: 400px;
-left: 0px;
-top: 615px;
 background: #F5F5F5; 
  }
 .sasi{
@@ -170,13 +151,11 @@ color: #445161;
 font-family: Arial;
 font-style: normal;
 font-weight: normal;
-font-size: 30px;
-line-height: 36px;
 }
 .trum{
     display: flex;
     max-width: 575px;
-    max-height:153px;
+    max-height: 153px;
 }
 .trumul{
     display: flex;
@@ -212,21 +191,9 @@ font-size: 24px;
 line-height: 30px;
 color: #445161;
 }
-.holacost{
-    padding-left:14px ;
-    margin-top: 17px;
-}
 .hola{
     padding-left:14px ; 
-    margin-top: 17px;
-}
-.holahup{
-    padding-left:14px ;
-    margin-top:16px ;
-}
-.holar{
-    padding-left:14px ;
-    padding-top:16px ;
+    margin-top: 16px;
 }
 .sdf{
     margin-top: 45px;
@@ -275,8 +242,6 @@ align-items: center;
 color: #000000;
 width: 458px;
 height: 77px;
-left: 100px;
-top: 18px;
 flex-direction: column;
 max-height: 121px;
 }
@@ -307,7 +272,7 @@ margin-top:12px;
 .petux{
     display: flex;
     margin:26px 0 0 0;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .tut{
@@ -320,9 +285,8 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
-margin-top: 219px;
+margin:219px 0 0 145px;
 border-radius: 4px;
-margin-left: 145px;
 }
 .tam{
     background-color:#445161;
@@ -347,9 +311,8 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
-margin-top: 26px;
+margin:26px 137px 0 0;
 border-radius: 4px;
-margin-right:137px ;
 }
 .bheader{
     font-family: Arial;
@@ -397,8 +360,7 @@ border-radius: 3px;
 .footerpro{
     background: #445162;
     width:1272px;
-    height:509px; 
-    
+    height:545px; 
 }
 .foot{
     font-family: Arial;
@@ -421,8 +383,7 @@ padding:2px 0 7px 476px;
     width:503px;
     height: 173px;
     border-radius: 7px;
-    margin-bottom: 18px;
-    margin-left: 247px;
+    margin: 0 0 18px 247px;
     padding:12px 0 7px 12px;
     font-family: Arial;
 font-style: normal;
