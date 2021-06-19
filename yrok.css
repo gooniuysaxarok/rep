@@ -1,6 +1,6 @@
 .main-header{
     width: 1272px;
-    height: 275px;
+    min-height: 275px;
     background-color: #445161;
     display: flex;
 }
@@ -71,7 +71,7 @@ padding-top: 25px;
  }
  .dignity{
 width: 1272px;
-height: 400px;
+min-height: 400px;
 background: #F5F5F5; 
  }
 .sasi{
@@ -138,7 +138,7 @@ background: #F5F5F5;
 }
 .screenshots{
     width: 1272px;
-    height:490px;
+    min-height:490px;
 }
 .headd{
     text-align: center;
@@ -204,7 +204,7 @@ color: #445161;
     margin:31px 0 0 62px;
 }
 .reviews{
-    height: 400px;
+    min-height: 400px;
     width:1272px;
     background: #F5F5F5;
 }
@@ -270,7 +270,7 @@ margin-top:12px;
 .petux{
     display: flex;
     margin:26px 0 0 0;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 .tut{
@@ -283,7 +283,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
-margin:219px 0 0 145px;
+margin:219px 45px 0 145px;
 border-radius: 4px;
 }
 .tam{
@@ -296,7 +296,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
-margin-top: 121px;
+margin: 121px 45px 0 0;
 border-radius: 4px;
 }
 .zdes{
@@ -309,7 +309,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: #FFFFFF;
-margin:26px 215px 0 0;
+margin:26px 137px 0 0;
 border-radius: 4px;
 }
 .bheader{
@@ -355,10 +355,14 @@ line-height: 18px;
 color: #445161;
 border-radius: 3px;
 }
+.price-button:hover{
+    background-color:#445162;
+    color:#FFFFFF ;
+}
 .footerpro{
     background: #445162;
     width:1272px;
-    height:545px; 
+    min-height:545px; 
 }
 .foot{
     font-family: Arial;
@@ -377,6 +381,10 @@ padding:2px 0 7px 476px;
     margin-bottom: 18px;
     margin-left: 247px;
 }
+.input:hover{
+    background-color:#445162;
+    color:#FFFFFF ;
+}
 .area{
     width:503px;
     height: 173px;
@@ -388,6 +396,10 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 24px;
+}
+.area:hover{
+    background-color:#445162;
+    color:#FFFFFF ;
 }
 .icons{
 display: flex;
@@ -432,6 +444,11 @@ align-items: center;
 text-transform: uppercase;
 color: #445162;
 border-radius: 7px;
+cursor: pointer;
+}
+.lastbut:hover{
+    background-color:#445162;
+    color:#FFFFFF ;
 }
 .poslednee{
     width:1272px;
